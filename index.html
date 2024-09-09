@@ -3,56 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" media="(max-width: 768px)" href="assets/smartphoneres.css"/>
     <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1024px)" href="assets/tabletres.css"/>
     <link rel="stylesheet" media="(min-width: 1024px)" href="assets/desktopred.css" />
+
     <title>Bruno</title>
 </head>
-<body>
+<body style="background-image: url('assets/imgs/rm222-mind-14.jpg');">
     <div class="header">
         <div class="logo">
-            <a href="#start-page"><img src="assets/imgs/logo esticada.png" alt=""></a>
+            <a href="#start-page"><img src="assets/imgs/Logo Preta.png" alt=""></a>
         </div>
         <div class="menus">
-            <a href="#start-page">inicio</a>
-            <a href="#">Sobre Nós</a>
-            <a href="#">Sociais</a>
-            <a href="#">Contato</a>
+            <a href="#main-section" class="active">inicio</a>
+            <a href="#sobre">Sociais</a>
+            <a href="#sociais">Sobre</a>
+            <a href="#contato">Contato</a>
         </div>
-    </div>
+    </div>      
     <div class="container">
-        <section>
-            <div class="start" id="start-page">
-                <div class="start-text">
+
+        <section id="main-section">
+            
+            <div class="start-img">
+                <img src="assets/imgs/FrontIMGnb quadrada.png" alt="">
+            </div>    
+
+            <div class="start-text">
                     <h1>
-                        Aumente suas vendas com previsibilidade através de um processo de vendas eficiente.
+                        Aumente suas vendas com <span id="destaqueword">previsibilidade</span> através de um processo de vendas eficiente.
                     </h1>
                     <p>Desenvolva um setor comercial coerente com seus objetivos em vendas, através da estruturação de processos, da implementação do método de gestão comercial e da contratação de profissionais qualificados.</p>
+
+                    <button class="Page-Btn" role="button">Converse com um Especialista!</button>
+                </div>
+                
+        </section>
+
+        <section id="sobre">
+
+            <div class="cases-box">
+                <div class="text-cases">
+                    <div class="fake-btn"><span>Conheça nossos cases:</span></div>
+                    <h1>Veja alguns de nossos 
+                        <br><span id="destaqueword">PARCEIROS</span> no <span id="destaqueword">Força de Vendas</span> :</h1>
+                </div>
+                <div class="box-cases">
+                    <div class="case-1  case1-effect">
+                        <div class="case1-clientbox">
+                            <div class="case1-imgbox">
+                                <img src="assets/imgs/logo bigdata.png" alt="">
+                            </div>
+                            <span id="destaqueword">BigDataCRM</span>
+                        </div>    
+
+                        <div class="case1-text">
+                            <span>O BigData CRM é um sistema inteligente que ajuda fazer a fusão do mundo físico com o digital e tem como objetivo elevar o ticket médio por visita, recorrência de compras e conquistar novos clientes com a visão de aumentar o faturamento e lucro do estabelecimento.</span>
+                        </div>
+                        <button class="more-btn" role="button">Saiba mais!</button>
+                    </div>
+                    <div class="case-2 case2-effect">
+                        <div class="case2-clientbox">
+                            <div class="case2-imgbox">
+                                <img src="assets/imgs/Logo 2F digital.jpg" alt="">
+                            </div>
+                            <span id="destaqueword">2F Digital</span>
+                        </div>    
+
+                        <div class="case2-text">
+                            <span>A 2f Digital está aqui para ajudar você na sua jornada de sucesso. <br>Transforme visitantes em clientes hoje mesmo!</span>
+                        </div>
+                        <button class="more-btn" role="button">Saiba mais!</button>
+                    </div>
+
+                    <div class="case-3 case3-effect">
+                        <div class="case1-clientbox">
+                            <div class="case1-imgbox">
+                                <img src="assets/imgs/Logo Meshift.jpg" alt="">
+                            </div>
+                            <span id="destaqueword">MESHIFT</span>
+                        </div>    
+
+                        <div class="case1-text">
+                            <span>Aprimorando seu negócio com a Tecnologia 💻. <br>
+                                “A inovação é a linguagem e a tecnologia o veículo que usamos para moldar o futuro digital.”</span>
+                        </div>
+                        <button class="more-btn" role="button">Saiba mais!</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-image">
+                    <img src="assets/imgs/Only Logo Preta.png" alt="">
+                </div>
+                <div class="info-box-text">
+                    <h1>Aumentamos a produtividade e a conversão da equipe comercial, através da criação dos Scripts (Playbooks) e da implementação de ferramentas de CRM, Omnichannel, VOIP e Sales Engagement.</h1>
                 </div>
             </div>
-        </section>
-        <section id="pg2">
+
 
         </section>
-        <section id="pg3">
+
+        <section id="sociais">
+            <div class="about-us-box">
+                <div class="about-text">
+                    <div class="fake-btn-sociais"><span>Sobre</span></div>
+                    <h1>Quem eu sou?</h1>
+                    <span id="about-name">Bruno Irineu</span>
+                    <div class="about-bruno">
+                        <p>Entusiasta de processos comerciais e da formação de equipes fortes e orientadas por propósito. Atua há 7 anos na área de vendas, onde descobriu sua paixão por conectar pessoas e negócios a soluções de alto valor agregado. Já agregou mais de 500 mil em receita aos seus clientes e às empresas em que trabalhou, onde pode conhecer as boas práticas que fazem grandes empresas obterem sucesso com suas máquinas de vendas. Hoje, encontra sua motivação na estruturação de operações de vendas e no fortalecimento do ecossistema comercial através de consultorias e da conexão de vendedores capacitados a empresas de mercado.</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="about-back-img">
+                <img src="assets/imgs/foto bruno.png" alt="">
+            </div>
+        </section>
+
+        <section id="contato">
 
         </section>
-        <section id="pg4">
 
-        </section>
-        <section id="end">
-
-        </section>
     </div>
-    <div class="rodape">
-
-    </div>
 
 
 
 
 
 
-    
 </body>
 </html>
